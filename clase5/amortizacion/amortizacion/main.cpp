@@ -16,11 +16,12 @@ int main()
     unTerreno->setValor(120000.0);
     gestorContable.imprimir(unTerreno);
 
-    Bien * unRodado = new Rodado();
-    Rodado * o = NULL;
+    Rodado * unRodado = new Rodado();
+    unRodado->setKm(2450);
+    /*Rodado * o = NULL;
     if (o = dynamic_cast<Rodado*> (unRodado)) {
         o->setKm(2450);
-    }
+    }*/
 
 
     unRodado->setValor(400000.00);
