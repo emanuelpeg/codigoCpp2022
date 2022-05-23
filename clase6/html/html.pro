@@ -9,11 +9,13 @@ SOURCES += \
     a.cpp \
     p.cpp \
     img.cpp \
-    body.cpp
+    body.cpp \
+    texto.cpp
 
 HEADERS += \
     tag.h \
     a.h \
     p.h \
     img.h \
-    body.h
+    body.h \
+    texto.h

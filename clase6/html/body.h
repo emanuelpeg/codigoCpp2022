@@ -3,8 +3,6 @@
 #include "tag.h"
 #include <iostream>
 
-typedef Tag* PTag;
-
 class BODY
 {
 private:

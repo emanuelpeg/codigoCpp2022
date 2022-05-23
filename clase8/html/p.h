@@ -9,8 +9,8 @@ private:
     int cant = 0;
 public:
     P();
-    char * imprimir();
-    void add(Tag * tag);
+    P* add(PTag t);
+    char * show();
 };
 
 #endif // P_H

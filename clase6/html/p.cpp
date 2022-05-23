@@ -1,16 +1,33 @@
 #include "p.h"
 #include <string.h>
 
-P::P(char * texto)
+P::P()
 {
-    this->texto = new char[this->count(texto)];
-    strcpy(this->texto, texto);
+
 }
 
+void P::add(Tag * tag) {
+    PTag * aux = new PTag[this->cant + 1];
+    for (int i = 0; i < this->cant; i++) {
+        aux[i] = this->tags[i];
+    }
+    aux[this->cant] = tag;
+    delete [] tags;
+    this->tags = aux;
+    this->cant++;
+}
+
+
 char * P::imprimir() {
-    char * resultado = new char[7 + this->count(this->texto)];
+    int cantTxt = 0;
+    for (int i = 0; i<this->cant; i++) {
+        cantTxt += this->count(this->tags[i]->imprimir());
+    }
+    char * resultado = new char[7 + cantTxt];
     strcpy(resultado,  "<p>");
-    strcat(resultado, this->texto);
+    for (int i = 0; i<this->cant; i++) {
+        strcat(resultado, this->tags[i]->imprimir());
+    }
     strcat(resultado, "</p>");
     return resultado;
 }

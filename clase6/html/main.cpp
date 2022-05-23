@@ -4,6 +4,7 @@
 #include "p.h"
 #include "img.h"
 #include "body.h"
+#include "texto.h"
 
 using namespace std;
 
@@ -11,9 +12,12 @@ int main()
 {
     BODY * body = new BODY();
     Tag * a = new A("texto","http://algo.com");
-    Tag * p = new P("texto");
+    P * p = new P();
+    p->add(new Texto("texto"));
     Tag * img = new IMG("img.jpg");
-    Tag * otroP = new P("Otro texto");
+    P * otroP = new P();
+    otroP->add(new Texto("otroP"));
+    otroP->add(new A("texto","http://algo.com"));
     body->add(a);
     body->add(p);
     body->add(img);
