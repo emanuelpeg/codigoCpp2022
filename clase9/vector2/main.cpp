@@ -1,17 +1,19 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 int main()
 {
-    vector eje;
-    eje.push_back(0);
+    vector<int> eje;
     eje.push_back(2);
     eje.push_back(3);
+    eje.push_back(8);
 
-    for (int i = 0; i<eje.size(); i++) {
-        std::cout << eje[i];
+    eje[0] = 5;
+
+    for (int i = 0; i < eje.size(); i++) {
+        cout << eje[i] << " ";
     }
+
     return 0;
 }
