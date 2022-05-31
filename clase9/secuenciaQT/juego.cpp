@@ -46,6 +46,21 @@ void Juego::generar()
     this->secuencia->generar();
 }
 
+int Juego::getPos0()
+{
+    return this->secuencia->getVec()[0];
+}
+
+int Juego::getPos1()
+{
+    return this->secuencia->getVec()[1];
+}
+
+int Juego::getPos3()
+{
+    return this->secuencia->getVec()[3];
+}
+
 std::ostream& operator<<(std::ostream &os, const Juego &juego)
 {
     os << juego.secuencia->getVec()[0] << " ";

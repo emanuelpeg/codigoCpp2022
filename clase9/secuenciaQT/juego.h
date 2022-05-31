@@ -17,6 +17,9 @@ public:
     bool isOk(int nro);
     int getPuntos();
     void generar();
+    int getPos0();
+    int getPos1();
+    int getPos3();
     friend std::ostream& operator<<(std::ostream& os,const Juego &juego);
 };
 
