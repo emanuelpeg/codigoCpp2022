@@ -7,7 +7,7 @@
         "-I",
         "/home/emanuel/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-tXOJDV/clang-uiheader-QjxDZP",
+        "/tmp/QtCreator-bGTucx/clang-uiheader-xnERUV",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -26,7 +26,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro",
+        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro",
         "-I",
         "/home/emanuel/Qt/6.4.0/gcc_64/include",
         "-I",
@@ -63,10 +63,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro/main.cpp"
+        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro/main.cpp"
     ],
     "directory": "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/build-cronometro-Desktop-Debug/.qtc_clangd",
-    "file": "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro/main.cpp"
+    "file": "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro/main.cpp"
 },
 {
     "arguments": [
@@ -76,7 +76,7 @@
         "-I",
         "/home/emanuel/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-tXOJDV/clang-uiheader-QjxDZP",
+        "/tmp/QtCreator-bGTucx/clang-uiheader-xnERUV",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -95,7 +95,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro",
+        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro",
         "-I",
         "/home/emanuel/Qt/6.4.0/gcc_64/include",
         "-I",
@@ -132,10 +132,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro/mainwindow.cpp"
+        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro/mainwindow.cpp"
     ],
     "directory": "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/build-cronometro-Desktop-Debug/.qtc_clangd",
-    "file": "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro/mainwindow.cpp"
+    "file": "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro/mainwindow.cpp"
 },
 {
     "arguments": [
@@ -145,7 +145,7 @@
         "-I",
         "/home/emanuel/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-tXOJDV/clang-uiheader-QjxDZP",
+        "/tmp/QtCreator-bGTucx/clang-uiheader-xnERUV",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -164,7 +164,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro",
+        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro",
         "-I",
         "/home/emanuel/Qt/6.4.0/gcc_64/include",
         "-I",
@@ -201,10 +201,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro/mainwindow.h"
+        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro/mainwindow.h"
     ],
     "directory": "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/build-cronometro-Desktop-Debug/.qtc_clangd",
-    "file": "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro/mainwindow.h"
+    "file": "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro/mainwindow.h"
 },
 {
     "arguments": [
@@ -214,7 +214,7 @@
         "-I",
         "/home/emanuel/Qt/Tools/QtCreator/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-tXOJDV/clang-uiheader-QjxDZP",
+        "/tmp/QtCreator-bGTucx/clang-uiheader-xnERUV",
         "-nostdinc",
         "-nostdinc++",
         "-pipe",
@@ -233,7 +233,7 @@
         "-DQT_GUI_LIB",
         "-DQT_CORE_LIB",
         "-I",
-        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/cronometro",
+        "/home/emanuel/Facultad/programacion_orientada_objeto/2022/codigoCpp2022/clase10/cronometro",
         "-I",
         "/home/emanuel/Qt/6.4.0/gcc_64/include",
         "-I",
