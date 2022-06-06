@@ -65,7 +65,7 @@ void MainWindow::timeout2()
 }
 
 void MainWindow::llenar(VectorCircular * vec) {
-    for(int i=1; i<1; i++) {
+    for(int i=1; i<6; i++) {
         vec->add(i);
     }
 }
