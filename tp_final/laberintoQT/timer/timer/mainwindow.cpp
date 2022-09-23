@@ -12,14 +12,14 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    int cantidad = 40;
+    int cantidad = 30;
     ui->setupUi(this);
     srand(time(NULL));
     int ** matriz = new int*[cantidad];
     for (int i = 0; i < cantidad; i++) {
         matriz[i] = new int[cantidad];
         for (int j = 0; j < cantidad; j++) {
-            matriz[i][j] = rand() % 4;
+            matriz[i][j] = rand() % 9;
         }
     }
 
